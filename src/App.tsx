@@ -8,9 +8,6 @@ import Footer from './components/Footer';
 import SearchPopup from './components/SearchPopup';
 import ScrollTopButton from './components/ScrollTopButton';
 
-import './assets/css/libraries.css';
-import './assets/css/style.css';
-
 const App: React.FC = () => {
   return (
     <div className="wrapper">
