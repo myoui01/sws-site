@@ -2,19 +2,21 @@ import React from 'react';
 
 const Services: React.FC = () => {
   return (
-    <section className="services-layout2 pb-70">
+    <section id="services" className="services-layout2 pb-70">
       <div className="container">
         <div className="row heading mb-70">
           <div className="col-12">
-            <h2 className="heading__subtitle">Encontre paz com monitoramento 24 horas por dia</h2>
+            <h2 className="heading__subtitle">Conquiste eficiência com terceirização inteligente 24h por dia</h2>
           </div>
           <div className="col-sm-12 col-md-12 col-lg-5">
-            <h3 className="heading__title">Sistemas de segurança inteligentes que se adaptam ao seu negócio!</h3>
+        <h3 className="heading__title">
+        Mais segurança e higiene com vigilância remota e limpeza profissional
+        </h3>
           </div>
           <div className="col-sm-12 col-md-12 col-lg-6 offset-lg-1">
             <p className="heading__desc">
-              Somos especializados na terceirização de logística de profissionais para
-              controladoria de acesso, limpeza, portaria e recepção, com foco em edifícios comerciais, obras e condomínios.
+            Somos especialistas em terceirização de equipes para portaria, recepção, limpeza e vigilância remota,
+            trazendo redução de custos operacionais, aumento de produtividade e foco no que realmente importa para o seu negócio.            
             </p>
             <div className="d-flex flex-wrap align-items-center mt-30">
               <a href="https://wa.me/5511984286333" className="btn btn__secondary btn__xl my-1 mr-30">

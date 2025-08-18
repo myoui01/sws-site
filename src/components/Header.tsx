@@ -8,10 +8,9 @@ const Header: React.FC = () => {
       <nav className="navbar navbar-expand-lg sticky-navbar">
         <div className="container-fluid">
           <a className="navbar-brand" href="index.html">
-            <img src="./favicon.svg" className="logo-dark" alt="logo" />
-            <span className="logotext">GRUPO SWS</span>          
+            <img src="./favicon.svg" className="logo-dark" alt="logo" style={{ width: 30, marginLeft: 30 }} />
+            <span className="logotext" style={{ marginLeft: 10 }}>GRUPO  SWS</span>          
           </a>
-          {/* <img src="assets/images/logo/slogo1.png" style={{ width: 200, marginLeft: 100 }} className="logo" alt="logo" /> */}
           <button
             className="navbar-toggler d-lg-none"
             type="button"
@@ -43,13 +42,13 @@ const Header: React.FC = () => {
                         <a href="https://www.instagram.com/grupo_sws" className="nav__item-link dropdown-menu-title">Serviços</a>
                         <ul className="nav flex-column">
                           <li className="nav__item">
-                            <a className="nav__item-link" href="services-single.html">Controladoria de Acesso</a>
+                            <a className="nav__item-link">Controladoria de Acesso</a>
                           </li>
                           <li className="nav__item">
-                            <a className="nav__item-link" href="services-single.html">Manutenção e Limpeza</a>
+                            <a className="nav__item-link">Manutenção e Limpeza</a>
                           </li>
                           <li className="nav__item">
-                            <a className="nav__item-link" href="services-single.html">Outros terceirizados</a>
+                            <a className="nav__item-link">Outros terceirizados</a>
                           </li>
                         </ul>
                       </div>
@@ -89,7 +88,7 @@ const Header: React.FC = () => {
                   <i className="icon-phone"></i>
                 </div>
                 <div style={{ marginRight: 40 }}>
-                  <a className="phone__link d-block" href="tel:00201061245741" style={{ fontSize: 12 }}>11 5686-5049</a>
+                  <a className="phone__link d-block" href="tel:5511984286333" style={{ fontSize: 12 }}>11 98428-6333</a>
                   <a className="email__link d-block" href="https://www.instagram.com/grupo_sws">@gruposws_</a>
                 </div>
               </div>

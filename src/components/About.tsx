@@ -18,7 +18,7 @@ const About: React.FC = () => {
               <div className="heading-layout1 heading-light mb-50">
                 <h2 className="heading__subtitle color-primary">Controle total sobre a segurança de seus negócios</h2>
                 <h3 className="heading__title mb-40">Fornecendo as melhores práticas para protocolos de segurança da indústria.</h3>
-                <p className="heading__desc">Podemos fazer parceria com você para projetar e implementar um sistema integrado escalável ao mesmo tempo em que ganha eficiência em
+                <p className="heading__desc" style={{ color: '#2a4d55 !important' }}>Podemos fazer parceria com você para projetar e implementar um sistema integrado escalável ao mesmo tempo em que ganha eficiência em
                   seus sistemas e equipes, padronizando plataformas e implementando automação de sistemas de condução de eventos e
                   soluções poderosas</p>
               </div>

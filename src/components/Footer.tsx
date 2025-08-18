@@ -11,8 +11,8 @@ const Footer: React.FC = () => {
             comercial@swsseguranca.com.br
           </a>
           {" | "}
-          <a href="tel:00201061245741" style={{ color: "#315f68", textDecoration: "none" }}>
-            11 5686-5049
+                      <a href="tel:5511984286333" style={{ color: "#315f68", textDecoration: "none" }}>
+              11 98428-6333
           </a>
         </div>
         <div style={{ marginBottom: 8 }}>

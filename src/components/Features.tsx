@@ -4,12 +4,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const features = [
-  { number: "01", title: "Obras Públicas" },
-  { number: "02", title: "Manufatura e Logística" },
-  { number: "03", title: "Prédios Comerciais" },
-  { number: "04", title: "Condomínios Residenciais" },
+  { number: "01", title: "Condomínios Residenciais" },
+  { number: "02", title: "Prédios Comerciais" },
+  { number: "03", title: "Obras Públicas" },
+  { number: "04", title: "Obras Privadas" },
   { number: "05", title: "Escolas e Faculdades" },
   { number: "06", title: "Hospitais e Postos" },
+  { number: "07", title: "Manufatura e Logística" }
 ];
 
 const sliderSettings = {
@@ -51,9 +52,8 @@ const Features: React.FC = () => {
             <div className="heading-layout2 heading-light mb-140" style={{ marginTop: '0px', }}>
               <h3 className="heading__title">Proteja o que mais importa!</h3>
               <p className="heading__desc" style={{ fontWeight: 300 }}>
-                Isso não apenas reduzirá a probabilidade de crimes acontecerem em sua propriedade,
-                como também reduzirá ou eliminará qualquer responsabilidade que recaia sobre você se você puder mostrar que possui sistemas de segurança de edifícios comerciais sólidos e
-                bem projetados.
+              A terceirização nas áreas de limpeza e segurança garante maior eficiência operacional, redução de custos e acesso a equipes altamente treinadas, tecnologias modernas e processos padronizados, assegurando ambientes mais protegidos, limpos e produtivos — ao mesmo tempo em que libera sua empresa para focar no que realmente importa: o crescimento do seu negócio.
+
               </p>
             </div>
           </div>
@@ -81,7 +81,7 @@ const Features: React.FC = () => {
             <button className="btn__download d-flex align-items-center">
               <span className="text-right mx-2">
                 <span className="color-body d-block">Garanta sua segurança</span>
-                <strong className="color-white d-block fz-15">Download apresentação - 2024</strong>
+                <strong className="color-white d-block fz-15">Download apresentação - 2025</strong>
               </span>
               <span className="download__icon">
                 <i className="icon-download"></i>

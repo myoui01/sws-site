@@ -13,6 +13,17 @@ const settings = {
 };
 
 const Slider: React.FC = () => {
+  const scrollToServices = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    const servicesSection = document.getElementById('services');
+    if (servicesSection) {
+      servicesSection.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  };
+
   return (
     <section className="slider">
       <SlickSlider {...settings} className="carousel-arrows-light carousel-dots-light m-slides-0">
@@ -45,12 +56,11 @@ const Slider: React.FC = () => {
               <div className="col-sm-12 col-md-12 col-lg-12 col-xl-7">
                 <div className="slide__content">
                   <span className="slide__subtitle">Proteja o que é mais importante para você!</span>
-                  <h2 className="slide__title">As Melhores Soluções de Segurança</h2>
+                  <h3 className="slide__title">Sistemas de segurança inteligentes que se adaptam ao seu negócio!</h3>
                   <p className="slide__desc">
-                    Oferecemos serviços de controladoria de acesso e vigilância remota, garantindo segurança e tranquilidade para condomínios residenciais, empresas e obras.
-                  </p>
+                  Somos especializados na terceirização de logística de profissionais para controladoria de acesso, limpeza, portaria e recepção, com foco em edifícios comerciais, obras e condomínios.</p>
                   <div className="d-flex flex-wrap align-items-center">
-                    <a href="https://wa.me/5511984286333" className="btn btn__primary btn__xl mr-30">
+                    <a href="#services" onClick={scrollToServices} className="btn btn__primary btn__xl mr-30">
                       <span>Nossos serviços</span>
                       <i className="icon-arrow-right"></i>
                     </a>
@@ -65,7 +75,7 @@ const Slider: React.FC = () => {
                   <p className="cta__desc" style={{ marginTop: '-10px' }}>
                     Desde 2004, proporcionando o melhor atendimento do mercado, com foco em obras, edifícios comerciais e condomínios.
                   </p>
-                  <a href="services.html" className="btn btn__primary btn__link">
+                  <a href="#services" onClick={scrollToServices} className="btn btn__primary btn__link">
                     <i className="icon-arrow-right icon-filled"></i>
                     <span>Nossos serviços!</span>
                   </a>
@@ -103,12 +113,12 @@ const Slider: React.FC = () => {
               <div className="col-sm-12 col-md-12 col-lg-12 col-xl-7">
                 <div className="slide__content">
                   <span className="slide__subtitle">Serviços profissionais que transformam seu ambiente!</span>
-                  <h2 className="slide__title">O melhor da Manutenção e Limpeza</h2>
+                  <h2 className="slide__title">O melhor da Manutenção e Limpeza com zero preocupação!</h2>
                   <p className="slide__desc">
-                    Deixe-nos cuidar de tudo, garantindo um ambiente sempre limpo e organizado para você e sua equipe.
+                  Somos especializados na terceirização de logística de profissionais para controladoria de acesso, limpeza, portaria e recepção, com foco em edifícios comerciais, obras e condomínios.
                   </p>
                   <div className="d-flex flex-wrap align-items-center">
-                    <a href="https://wa.me/5511984286333" className="btn btn__primary btn__xl mr-30">
+                    <a href="#services" onClick={scrollToServices} className="btn btn__primary btn__xl mr-30">
                       <span>Nossos serviços</span>
                       <i className="icon-arrow-right"></i>
                     </a>
@@ -123,7 +133,7 @@ const Slider: React.FC = () => {
                   <p className="cta__desc" style={{ marginTop: '-10px' }}>
                     Desde 2004, proporcionando o melhor atendimento do mercado, com foco em obras, edifícios comerciais e condomínios.
                   </p>
-                  <a href="services.html" className="btn btn__primary btn__link btn__white">
+                  <a href="#services" onClick={scrollToServices} className="btn btn__primary btn__link btn__white">
                     <i className="icon-arrow-right icon-filled"></i>
                     <span>Nossos serviços!</span>
                   </a>
