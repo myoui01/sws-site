@@ -2,7 +2,7 @@ import React from 'react';
 
 const About2: React.FC = () => {
   return (
-    <section className="about-layout3 bg-light pb-90 pt-90">
+    <section id="about" className="about-layout3 bg-light pb-90 pt-90">
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
@@ -37,7 +37,7 @@ const About2: React.FC = () => {
                   conservadas, criando espaços que transmitem profissionalismo e bem-estar.</p>
               </div>
               
-              <a href="#" className="btn btn__primary btn__primary-style2 btn__xl mb-40">
+              <a href="https://wa.me/5511984286333" className="btn btn__primary btn__primary-style2 btn__xl mb-40">
                 <span>Solicitar Orçamento</span>
                 <i className="icon-arrow-right"></i>
               </a>

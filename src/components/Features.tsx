@@ -66,7 +66,7 @@ const Features: React.FC = () => {
                   <h3 className="feature__number">{feature.number}</h3>
                   <div className="feature__body">
                     <h4 className="feature__title">{feature.title}</h4>
-                    <a href="#" className="btn btn__link btn__white">
+                    <a href="https://wa.me/5511984286333" className="btn btn__link btn__white">
                       <i className="icon-arrow-right icon-filled"></i>
                       <span>Saiba mais</span>
                     </a>

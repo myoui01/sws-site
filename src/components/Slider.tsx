@@ -25,7 +25,7 @@ const Slider: React.FC = () => {
   };
 
   return (
-    <section className="slider">
+    <section id="home" className="slider">
       <SlickSlider {...settings} className="carousel-arrows-light carousel-dots-light m-slides-0">
         {/* Slide 1 */}
         <div className="slide-item align-v-h bg-secondary" style={{ position: 'relative', overflow: 'hidden' }}>

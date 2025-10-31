@@ -22,7 +22,7 @@ const About: React.FC = () => {
                   seus sistemas e equipes, padronizando plataformas e implementando automação de sistemas de condução de eventos e
                   soluções poderosas</p>
               </div>
-              <a href="#" className="btn btn__primary btn__primary-style2 btn__xl mb-40">
+              <a href="https://wa.me/5511984286333" className="btn btn__primary btn__primary-style2 btn__xl mb-40">
                 <span>Saiba mais</span>
                 <i className="icon-arrow-right"></i>
               </a>

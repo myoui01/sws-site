@@ -1,7 +1,22 @@
 import React, { useState } from 'react';
 
+const useScrollToSection = () => {
+  const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, sectionId: string) => {
+    e.preventDefault();
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  };
+  return scrollToSection;
+};
+
 const Header: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const scrollToSection = useScrollToSection();
 
   return (
     <header className="header header-layout1">
@@ -28,13 +43,13 @@ const Header: React.FC = () => {
           >
             <ul className="navbar-nav mx-auto">
               <li className="nav__item has-dropdown">
-                <a href="#" className="nav__item-link active">Home</a>
+                <a href="#home" onClick={(e) => scrollToSection(e, 'home')} className="nav__item-link active">Home</a>
               </li>
               <li className="nav__item has-dropdown">
-                <a href="#" className="nav__item-link">Sobre nós</a>
+                <a href="#about" onClick={(e) => scrollToSection(e, 'about')} className="nav__item-link">Sobre nós</a>
               </li>
               <li className="nav__item has-dropdown">
-                <a href="#" className="dropdown-toggle nav__item-link" style={{ paddingRight: 15 }}>Serviços</a>
+                <a href="#services" onClick={(e) => scrollToSection(e, 'services')} className="dropdown-toggle nav__item-link" style={{ paddingRight: 15 }}>Serviços</a>
                 <ul className="dropdown-menu wide-dropdown-menu">
                   <li className="nav__item">
                     <div className="row mx-0">
@@ -42,13 +57,13 @@ const Header: React.FC = () => {
                         <a href="https://www.instagram.com/grupo_sws" className="nav__item-link dropdown-menu-title">Serviços</a>
                         <ul className="nav flex-column">
                           <li className="nav__item">
-                            <a className="nav__item-link">Controladoria de Acesso</a>
+                            <a href="#services" onClick={(e) => scrollToSection(e, 'services')} className="nav__item-link">Controladoria de Acesso</a>
                           </li>
                           <li className="nav__item">
-                            <a className="nav__item-link">Manutenção e Limpeza</a>
+                            <a href="#services" onClick={(e) => scrollToSection(e, 'services')} className="nav__item-link">Manutenção e Limpeza</a>
                           </li>
                           <li className="nav__item">
-                            <a className="nav__item-link">Outros terceirizados</a>
+                            <a href="#services" onClick={(e) => scrollToSection(e, 'services')} className="nav__item-link">Outros terceirizados</a>
                           </li>
                         </ul>
                       </div>
@@ -57,10 +72,10 @@ const Header: React.FC = () => {
                 </ul>
               </li>
               <li className="nav__item has-dropdown">
-                <a href="#" className="nav__item-link">Redes</a>
+                <a href="https://www.instagram.com/grupo_sws" target="_blank" rel="noopener noreferrer" className="nav__item-link">Redes</a>
               </li>
               <li className="nav__item has-dropdown">
-                <a href="#" className="nav__item-link">Apresentação</a>
+                <a href="#about" onClick={(e) => scrollToSection(e, 'about')} className="nav__item-link">Apresentação</a>
               </li>
             </ul>
             <button
@@ -75,7 +90,7 @@ const Header: React.FC = () => {
           <ul className="navbar-actions d-none d-xl-flex align-items-center list-unstyled mb-0">
             <li><button className="action__btn action__btn-search"><i className="icon-search"></i></button></li>
             <li>
-              <a href="#" className="action__btn action__btn-cart">
+              <a href="https://www.instagram.com/grupo_sws" target="_blank" rel="noopener noreferrer" className="action__btn action__btn-cart">
                 <i className="fab fa-instagram" style={{ fontSize: 16, marginLeft: -5 }}></i>
               </a>
             </li>

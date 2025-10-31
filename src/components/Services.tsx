@@ -42,7 +42,7 @@ const Services: React.FC = () => {
                   <p className="service__desc">
                     Aumentar a eficiência do serviço de portaria e permitir um melhor controle de acesso é um sonho para todos os síndicos.
                   </p>
-                  <a href="services-single.html" className="btn btn__primary btn__link">
+                  <a href="https://wa.me/5511984286333" className="btn btn__primary btn__link">
                     <i className="icon-arrow-right icon-filled"></i>
                     <span>Saiba mais</span>
                   </a>
@@ -60,7 +60,7 @@ const Services: React.FC = () => {
                     Temos as melhores condições para oferecer na
                     Conservação, Limpeza e Higienização de sua propriedade.
                   </p>
-                  <a href="services-single.html" className="btn btn__primary btn__link">
+                  <a href="https://wa.me/5511984286333" className="btn btn__primary btn__link">
                     <i className="icon-arrow-right icon-filled"></i>
                     <span>Saiba mais</span>
                   </a>
@@ -77,7 +77,7 @@ const Services: React.FC = () => {
                   <p className="service__desc">
                     Gerenciamento a distância de acessos, que amplia a segurança de quem entra e sai do prédio 24 horas por dia.
                   </p>
-                  <a href="services-single.html" className="btn btn__primary btn__link">
+                  <a href="https://wa.me/5511984286333" className="btn btn__primary btn__link">
                     <i className="icon-arrow-right icon-filled"></i>
                     <span>Saiba mais</span>
                   </a>
@@ -94,7 +94,7 @@ const Services: React.FC = () => {
                   <p className="service__desc">
                     Nossos profissionais são habilitados e aptos para atender as necessidades de nossos clientes.
                   </p>
-                  <a href="services-single.html" className="btn btn__primary btn__link">
+                  <a href="https://wa.me/5511984286333" className="btn btn__primary btn__link">
                     <i className="icon-arrow-right icon-filled"></i>
                     <span>Saiba mais</span>
                   </a>

@@ -3350,21 +3350,11 @@ input[type=radio],
   color: #9b9b9b;
 }
 
-.logo-dark {
-  width: 50px;
-  margin-left: 200px;
-  height: auto;
-  transition: width 0.2s, margin-left 0.2s;
-  margin-right: -40px;
-}
-
 .logotext {
   padding-top: 0;
-  padding-left: 50px;
-  padding-right: 100px;
   font-family: "Poppins", serif;
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 1.3rem;
+  font-weight: 600;
   color: #222;
   display: flex;
   align-items: center;
@@ -3373,7 +3363,7 @@ input[type=radio],
 
 @media (max-width: 991px) {
   .logotext {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 0;
     display: flex;
     margin-left: 7px;
@@ -3383,13 +3373,25 @@ input[type=radio],
     font-weight: 600;
     color: #222;
   }
+  
+  .logo-dark {
+    width: 30px !important;
+  }
+
+  .navbar-brand {
+    margin-left: -20px !important;
+  }
 }
 
 @media (max-width: 991px) {
   .logo-dark {
-    width: 60px;
-    margin-left: 0;
+    width: 30px !important;
   }
+
+  .navbar-brand {
+    margin-left: -20px !important;
+  }
+  
 }
 
 @media (max-width: 575px) {
@@ -4381,7 +4383,7 @@ input[type=radio],
 }
 .slider .slide__title {
   color: #ffffff;
-  font-size: 75px;
+  font-size: 40px;
   line-height: 1.1;
   margin-bottom: 25px;
 }
@@ -4503,13 +4505,13 @@ input[type=radio],
 /* Large Size Screens */
 @media (min-width: 992px) and (max-width: 1200px) {
   .slider .slide__title {
-    font-size: 65px;
+    font-size: 35px;
   }
 }
 /* Medium Size Screens */
 @media (min-width: 768px) and (max-width: 991px) {
   .slider .slide__title {
-    font-size: 50px;
+    font-size: 28px;
     margin-bottom: 10px;
   }
 }
@@ -4535,7 +4537,7 @@ input[type=radio],
 /*  Small Screens and tablets  */
 @media (min-width: 576px) and (max-width: 767px) {
   .slider .slide__title {
-    font-size: 32px;
+    font-size: 22px;
     margin-bottom: 10px;
   }
   .slider .slick-arrow.slick-prev {
@@ -4551,7 +4553,7 @@ input[type=radio],
     font-size: 14px;
   }
   .slider .slide__title {
-    font-size: 28px;
+    font-size: 20px;
     margin-bottom: 10px;
   }
   .slider .btn {
